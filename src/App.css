@@ -1022,7 +1022,8 @@ html,
 
   .ppfix1 {
     font-family: "Karla", sans-serif;
-    font-size: 25px;
+    font-size: 50px;
+    border: 2px solid red;
     font-weight: 800 !important;
   }
 
@@ -1030,14 +1031,14 @@ html,
     color: #7b2cbf !important;
     font-family: "Karla", sans-serif;
     font-weight: 800;
-    font-size: 30px;
+    font-size: 40px;
   }
 
   .ppfix2 {
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 85vw;
   }
 

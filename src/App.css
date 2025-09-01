@@ -1016,13 +1016,13 @@ html,
   }
 
   .img-fluid {
-    height: 40vh;
+    height: 30vh;
     width: 100vw;
   }
 
   .ppfix1 {
     font-family: "Karla", sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 800 !important;
   }
 
@@ -1030,7 +1030,7 @@ html,
     color: #7b2cbf !important;
     font-family: "Karla", sans-serif;
     font-weight: 800;
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .ppfix2 {
@@ -1044,7 +1044,7 @@ html,
   .imgfix {
     margin: 2%;
     z-index: 80;
-    height: 20vh;
+    height: 18vh;
     width: 95vw;
     border: 2px solid red;
     /* overflow: hidden; */

@@ -1,0 +1,204 @@
+body,
+html,
+#root {
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+.navbar {
+  /* border: 2px solid black; */
+  padding: 0%;
+  position: fixed;
+  width: 100%;
+  /* background: linear-gradient(50deg,
+      rgba(246, 230, 210, 0.7) 10%,
+      rgba(245, 245, 245, 0.9) 100%
+    ); */
+  background-color: white !important;
+  z-index: 99;
+}
+
+.container-fluid {
+  /* border: 2px solid red; */
+  height: 10vh;
+  /* align-items: center; */
+  justify-content: space-around !important;
+}
+
+#logo {
+  height: 8vh;
+}
+
+.herocontainer {
+  margin-top: 3vh;
+  width: 100% !important;
+  height: 100vh;
+
+  --deep-purple: #b89ad6;
+  /* main purple glow */
+  --lavender-mid: #d7c2eb;
+  /* soft mid tone */
+  --warm-beige: #eacda1;
+  /* warm peach/beige */
+  --soft-cream: #fbf5ee;
+  /* near-white */
+
+  background-color: var(--soft-cream);
+  /* fallback */
+
+  background-image:
+    /* top white wash for navbar area */
+    linear-gradient(to bottom,
+      rgba(255, 255, 255, 0.96) 0%,
+      rgba(255, 255, 255, 0.85) 12%,
+      rgba(255, 255, 255, 0.00) 28%),
+    /* purple glow (lower left) */
+    radial-gradient(800px 520px at 20% 65%,
+      rgba(184, 154, 214, 0.94) 0%,
+      rgba(184, 154, 214, 0.00) 48%),
+    /* beige glow (right) */
+    radial-gradient(900px 600px at 86% 45%,
+      rgba(234, 205, 161, 0.92) 0%,
+      rgba(234, 205, 161, 0.00) 46%),
+    /* base smooth blend */
+    linear-gradient(90deg,
+      rgba(215, 194, 235, 1) 0%,
+      rgba(250, 244, 240, 0.55) 48%,
+      rgba(255, 243, 230, 1) 100%);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* needed for ::before and ::after */
+}
+
+.herocontainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(120deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0) 30%);
+  mix-blend-mode: overlay;
+}
+
+.herocontainer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.03), transparent 8%),
+    radial-gradient(circle at 90% 80%, rgba(0, 0, 0, 0.02), transparent 16%);
+  mix-blend-mode: soft-light;
+  opacity: 1;
+}
+
+
+.fix {
+  /* border: 2px solid rgb(0, 229, 255); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 4%;
+  width: 80%;
+}
+
+.txtfix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.imgfix {
+  margin: 2%;
+  z-index: 80;
+  height: 50vh;
+  width: 80vw;
+  /* overflow: hidden; */
+}
+
+.img-fluid {
+  height: 105vh;
+  width: 65vw;
+}
+
+.ppfix1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 800 !important;
+}
+
+.ppfix {
+  color: #7b2cbf !important;
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+}
+
+.ppfix2 {
+  text-align: center !important;
+  color: black !important;
+  font-family: "Mulish", sans-serif;
+}
+
+.btnctn {
+  color: black !important;
+  background-color: transparent !important;
+  border: 2px solid black !important;
+  height: 7vh;
+  width: 12vw;
+  border-radius: 25px !important;
+}
+
+.btnctn:hover {
+  color: white !important;
+  background-color: black !important;
+}
+
+.btndtn {
+  color: white !important;
+  background-color: black !important;
+  border: 2px solid black !important;
+  height: 7vh;
+  width: 12vw;
+  border-radius: 25px !important;
+}
+
+.btndtn:hover {
+  color: white !important;
+  background-color: rgb(42, 42, 42) !important;
+}
+
+.acc {
+  border-radius: 10px;
+  box-shadow: "none";
+  border-bottom: 1px solid #ddd;
+  /* margin-bottom: 3vh; */
+}
+
+
+
+.ww {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* width: 12vw; */
+  flex-direction: column;
+}
+
+.abhead {
+  font-family: "Karla", sans-serif !important;
+  font-weight: 800 !important;
+}
+
+.abdesc {
+  color: black !important;
+  font-family: "Mulish", sans-serif;
+}

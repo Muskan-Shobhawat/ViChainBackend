@@ -1,0 +1,159 @@
+/* AboutSection.css
+   Uses rem and vh units for responsiveness
+*/
+
+:root {
+  --max-width: 72rem;
+  --primary: #7b2cbf;
+  --text: #222;
+  --muted: #666;
+  --bg-pill: rgba(0,0,0,0.04);
+}
+
+/* Section container */
+.about-section2 {
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 6vh 2rem;
+  box-sizing: border-box;
+}
+
+/* Grid: image + text columns */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Image styles */
+.about-image-wrap {
+  width: 100%;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.06);
+}
+
+.about-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Text column */
+.about-text .label {
+  font-size: 0.85rem;
+  letter-spacing: 0.12rem;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.headline {
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+  font-size: clamp(1.6rem, 2.6vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.05;
+  color: var(--text);
+}
+
+.emphasize {
+  font-style: italic;
+  color: var(--primary);
+}
+
+/* Pills (tabs) */
+.pills {
+  margin-top: 1.2rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.pill {
+  border-radius: 2rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  background: rgba(129, 54, 183, 0.6);
+  border: 1px solid rgba(129, 54, 183,0.06);
+  cursor: pointer;
+  transition: all 240ms ease;
+  min-width: auto;
+}
+
+.pill:hover,
+.pill:focus {
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.pill.active {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  box-shadow: 0 0.8rem 1.6rem rgba(123,44,191,0.12);
+}
+
+/* Subheading */
+.subheading {
+  margin-top: 1.6rem;
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--text);
+}
+
+/* Content area with fade animation */
+.about-content {
+  position: relative;
+  margin-top: 1rem;
+  min-height: 6rem;
+}
+
+.content-item {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+  opacity: 0;
+  transform: translateY(0.6rem);
+  transition: opacity 360ms ease, transform 360ms ease;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.content-item.active {
+  opacity: 1;
+  transform: none;
+  position: relative;
+}
+
+/* Responsive: stack on small screens, image first */
+@media (max-width: 880px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* On small screens show image above text (image first already in DOM) */
+  .about-image-wrap {
+    margin-bottom: 1.4rem;
+    border-radius: 1rem;
+  }
+
+  .headline {
+    font-size: clamp(1.4rem, 4.2vw, 1.8rem);
+  }
+}
+
+/* Accessibility: focus visible */
+.pill:focus-visible {
+  box-shadow: 0 0 0 3px rgba(123,44,191,0.15);
+}
+
+/* Small visual tweaks */
+@media (min-width: 1200px) {
+  .about-image-wrap {
+    border-radius: 1.8rem;
+  }
+}

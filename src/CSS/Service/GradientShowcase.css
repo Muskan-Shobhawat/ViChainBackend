@@ -1,0 +1,33 @@
+.vc-gradient {
+  padding: 6vh 0;
+  background: linear-gradient(90deg, #6f2bdc 0%, #9f4df0 40%, #7b2cbf 100%);
+  color: white;
+}
+
+.vc-gradient-panel {
+  text-align:center;
+  padding: 6vh 2vw;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.vc-gradient-title { font-size:2.6vw; font-weight:800; margin-bottom:1vh; }
+.vc-gradient-sub { color: rgba(255,255,255,0.9); margin-bottom:2.5vh; }
+
+.vc-cards-row {
+  display:flex;
+  gap:1.8vw;
+  justify-content:center;
+  margin-top:2vh;
+  flex-wrap:wrap;
+}
+
+.vc-mini-card {
+  min-width: 18vw;
+  max-width: 320px;
+  border-radius: 1rem !important;
+  padding: 0 !important;
+  overflow: visible;
+}
+.vc-mini-card h5 { margin:0 0 0.6rem; font-weight:700; }
+.vc-mini-card p { margin:0; color: rgba(0,0,0,0.65); }

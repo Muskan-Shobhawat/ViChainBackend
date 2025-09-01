@@ -1,0 +1,21 @@
+.vc-services { padding: 6vh 0; background:#fff; }
+.vc-service-card {
+  border-radius: 1rem !important;
+  box-shadow: 0 12px 30px rgba(16,24,40,0.06) !important;
+  padding: 1.6rem !important;
+  text-align:center;
+  height:100%;
+}
+.vc-service-icon {
+  width:64px;
+  height:64px;
+  margin:0 auto 1rem;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:50%;
+  background:linear-gradient(180deg,#f1e9ff,#fff);
+  font-size:1.8rem;
+}
+.vc-service-card h4 { margin-bottom:0.6rem; font-weight:700; }
+.vc-service-card p { color:#6b7280; }

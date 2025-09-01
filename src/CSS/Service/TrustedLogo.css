@@ -1,0 +1,19 @@
+.vc-trusted {
+  padding: 3vh 0;
+  background: linear-gradient(180deg,#ffffff,#fbfbff);
+  /* border: 2px solid red; */
+}
+.trusted-text {
+  text-align:center;
+  color:#6b7280;
+  margin-bottom:1.2vh;
+  font-weight:600;
+}
+.logo-row {
+  display:flex;
+  gap:2.5vw;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+}
+.trusted-logo { opacity:0.85; max-height:36px; }

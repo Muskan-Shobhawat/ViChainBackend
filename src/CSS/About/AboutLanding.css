@@ -1,0 +1,109 @@
+/* Section spacing */
+.about-section {
+  background: #ffffff;
+  padding: 18vh 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+
+}
+
+/* Eyebrow heading (ABOUT US) */
+.about-eyebrow {
+  font-weight: 800;
+  font-size: 3vw;
+  letter-spacing: 0.05vw;
+  color: #111;
+  position: relative;
+  line-height: 1.1;
+  display: inline-block;
+}
+
+.about-us-green {
+  color: #7b2cbf;
+}
+
+/* Yellow underline */
+.about-underline {
+  display: block;
+  width: 12vw;
+  height: 0.6vh;
+  background: rgb(243, 197, 137);
+  border-radius: 2vh;
+  margin-top: 1.2vh;
+}
+
+/* Italic subheadline */
+.about-subtitle {
+  font-style: italic;
+  font-size: 1.6vw;
+  margin-top: 3vh !important;
+  color: #222;
+}
+
+/* Body copy */
+.about-body {
+  color: #4b5563;
+  font-size: 1.05vw;
+  line-height: 1.9;
+  margin-top: 3vh !important;
+  max-width: 48vw;
+}
+
+/* Visual panel */
+.about-visual {
+  position: relative;
+  background: linear-gradient(10deg,
+      rgba(129, 54, 183, 0.6) 0%,
+      /* deeper purple */
+      rgba(244, 221, 190, 0.7) 60%,
+      /* darker beige */
+      rgba(245, 245, 245, 0.9) 100%
+      /* near-white fade */
+      );
+      border-radius: 1.2vw;
+      min-height: 70vh;
+      padding: 5vh 4vw;
+      width: 30vw;
+      overflow: hidden;
+      display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Colored headline inside the panel */
+.about-visual-heading {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 2vh;
+  left: 5vw;
+  right: 4vw;
+  font-weight: 800;
+  font-size: 3.5vw;
+  line-height: 1.15;
+  letter-spacing: 0.03vw;
+  text-align: left;
+  /* width: 20vw; */
+}
+
+.about-green { color: #7b2cbf; }
+.about-yellow { color: #7b2cbf; }
+
+/* Illustration anchored to bottom to mimic the reference */
+.about-illustration {
+  position: absolute;
+  bottom: -2vh;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* width: 72%; */
+  height: 52vh;
+  object-fit: contain;
+  pointer-events: none;
+  user-select: none;
+  /* border: 2px solid red; */
+}
+
+/* Simple responsiveness without px breakpoints:
+   text scales with viewport; layout handled by MUI Grid. */

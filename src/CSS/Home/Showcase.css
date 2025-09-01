@@ -1,0 +1,15 @@
+.sscontainer{
+    /* border: 2px solid #ff0000; */
+    padding: 20vh 0vw;
+    width: 80vw;
+}
+
+.ggcard{
+    /* border: 2px solid red; */
+    width: 12vw;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(244, 221, 190, 0.7) !important;
+}

@@ -1,0 +1,145 @@
+/* Hero Section Wrapper */
+.vc-hero {
+  background: #ffffff;
+  padding: 15vh 0;
+}
+
+/* Text Side */
+.vc-eyebrow {
+  display: block;
+  color: #6b7280;
+  font-weight: 600;
+  margin-bottom: 1vh;
+}
+
+.vc-hero-title {
+  font-size: 3.2vw;
+  line-height: 1.05;
+  margin: 0 0 1.4vh;
+  font-weight: 800;
+}
+
+.vc-accent {
+  color: #7b2cbf;
+}
+
+.vc-hero-sub {
+  color: #4b5563;
+  font-size: 1.05rem;
+  max-width: 48ch;
+  margin-bottom: 2vh;
+}
+
+/* Features */
+.vc-hero-features {
+  display: flex;
+  gap: 1.5vw;
+  flex-wrap: wrap;
+  margin-bottom: 2vh;
+}
+
+.vc-hero-features .feature {
+  background: #f8fafc;
+  border-radius: 0.6rem;
+  padding: 1vh 1.2vw;
+  min-width: 12rem;
+}
+
+.vc-hero-features .feature strong {
+  display: block;
+  font-weight: 700;
+}
+
+.vc-hero-features .feature span {
+  color: #6b7280;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.vc-hero-ctas {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.vc-btn-primary {
+  background: #7b2cbf !important;
+  color: white !important;
+  border-radius: 2rem !important;
+  padding: 0.9rem 1.6rem !important;
+  text-transform: none !important;
+  font-weight: 700 !important;
+}
+
+.vc-btn-ghost {
+  border-radius: 2rem !important;
+  padding: 0.75rem 1.4rem !important;
+  text-transform: none !important;
+  color: #7b2cbf !important;
+}
+
+/* Image Grid */
+.vc-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  justify-items: center;
+  align-items: center;
+  padding-top: 1vh;
+}
+
+/* Shapes for each image */
+.vc-shape {
+  width: 20.5vw;
+  height: 20.5vw;
+  max-width: 200px;
+  max-height: 200px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(16, 24, 40, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+}
+
+.vc-shape img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Different shapes */
+.vc-shape-1 {
+  border-radius: 50%; /* Circle */
+}
+
+.vc-shape-2 {
+  border-radius: 25%; /* Rounded square */
+}
+
+.vc-shape-3 {
+  border-radius: 35% 65% 50% 50%; /* Organic squircle */
+}
+
+.vc-shape-4 {
+  border-radius: 20% / 50%; /* Pill-like */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .vc-shape {
+    width: 24vw;
+    height: 24vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .vc-image-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .vc-shape {
+    width: 28vw;
+    height: 28vw;
+  }
+}

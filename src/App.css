@@ -1039,7 +1039,7 @@ html,
     color: black !important;
     font-family: "Mulish", sans-serif;
     /* border: 2px solid red; */
-    width: 85vw;
+    width: 80vw;
   }
 
   .imgfix {
@@ -1052,7 +1052,7 @@ html,
   }
 
   .herocontainer {
-    margin-top: 4vh;
+    margin-top: 5vh;
   }
 
   .fix {

@@ -1022,7 +1022,7 @@ html,
 
   .ppfix1 {
     font-family: "Karla", sans-serif;
-    font-size: 50px;
+    font-size: 30px;
     border: 2px solid red;
     font-weight: 800 !important;
   }
@@ -1031,7 +1031,7 @@ html,
     color: #7b2cbf !important;
     font-family: "Karla", sans-serif;
     font-weight: 800;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .ppfix2 {
@@ -1052,7 +1052,7 @@ html,
   }
 
   .herocontainer {
-    margin-top: 0vh;
+    margin-top: 2vh;
   }
 
   .fix {

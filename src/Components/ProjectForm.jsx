@@ -1,5 +1,14 @@
 import React, { useState } from "react";
-import { TextField, Button, Typography, Container, Box, Grid } from "@mui/material";
+import {
+  TextField,
+  Button,
+  Typography,
+  Container,
+  Box,
+  Grid,
+} from "@mui/material";
+import projectImg from "../assets/form.png"; // 👉 replace with your image path
+
 
 export default function ProjectForm() {
   const [formData, setFormData] = useState({
@@ -24,7 +33,7 @@ export default function ProjectForm() {
 
   return (
     <Box sx={{ backgroundColor: "#f8f9fa", py: 6 }}>
-      <Container maxWidth="md">
+      <Container maxWidth="lg">
         <Typography
           variant="h4"
           align="center"
@@ -37,90 +46,110 @@ export default function ProjectForm() {
           variant="subtitle1"
           align="center"
           gutterBottom
-          sx={{ mb: 4, color: "text.secondary" }}
+          sx={{ mb: 6, color: "text.secondary" }}
         >
           Let’s discuss your idea and make it real.
         </Typography>
 
-        <form onSubmit={handleSubmit}>
-          <Grid container spacing={3}>
-            {/* Name */}
-            <Grid item xs={12} sm={4}>
-              <TextField
-                fullWidth
-                label="Your Name"
-                variant="outlined"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                required
-              />
-            </Grid>
-
-            {/* Email */}
-            <Grid item xs={12} sm={4}>
-              <TextField
-                fullWidth
-                label="Your Email"
-                variant="outlined"
-                name="email"
-                type="email"
-                value={formData.email}
-                onChange={handleChange}
-                required
-              />
-            </Grid>
-
-            {/* Phone */}
-            <Grid item xs={12} sm={4}>
-              <TextField
-                fullWidth
-                label="Phone Number"
-                variant="outlined"
-                name="phone"
-                type="tel"
-                value={formData.phone}
-                onChange={handleChange}
-                inputProps={{ pattern: "[0-9]{10}", maxLength: 10 }}
-                helperText="Enter 10-digit number"
-                required
-              />
-            </Grid>
-
-            {/* Message */}
-            <Grid item xs={12}>
-              <TextField
-                fullWidth
-                label="Your Message"
-                variant="outlined"
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                multiline
-                rows={4}
-                required
-              />
-            </Grid>
-
-            {/* Submit Button */}
-            <Grid item xs={12} sx={{ textAlign: "center" }}>
-              <Button
-                type="submit"
-                variant="contained"
-                size="large"
-                sx={{
-                  backgroundColor: "#7b2cbf",
-                  "&:hover": { backgroundColor: "#5a189a" },
-                  px: 5,
-                  py: 1.5,
-                  borderRadius: "30px",
+        <Grid container spacing={5} alignItems="center">
+          {/* Left Side Image */}
+          <Grid item xs={12} md={6}>
+            <Box sx={{ textAlign: "center" }}>
+              <img
+                src={projectImg}
+                alt="Project discussion"
+                style={{
+                  maxWidth: "20%",
+                  height: "auto",
+                  borderRadius: "12px",
                 }}
-              >
-                Send Message
-              </Button>
-            </Grid>
+              />
+            </Box>
           </Grid>
-        </form>
+
+          {/* Right Side Form */}
+          <Grid item xs={12} md={6}>
+            <form onSubmit={handleSubmit}>
+              <Grid container spacing={3}>
+                {/* Name */}
+                <Grid item xs={12} sm={6}>
+                  <TextField
+                    fullWidth
+                    label="Your Name"
+                    variant="outlined"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+
+                {/* Email */}
+                <Grid item xs={12} sm={6}>
+                  <TextField
+                    fullWidth
+                    label="Your Email"
+                    variant="outlined"
+                    name="email"
+                    type="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    required
+                  />
+                </Grid>
+
+                {/* Phone */}
+                <Grid item xs={12}>
+                  <TextField
+                    fullWidth
+                    label="Phone Number"
+                    variant="outlined"
+                    name="phone"
+                    type="tel"
+                    value={formData.phone}
+                    onChange={handleChange}
+                    inputProps={{ pattern: "[0-9]{10}", maxLength: 10 }}
+                    helperText="Enter 10-digit number"
+                    required
+                  />
+                </Grid>
+
+                {/* Message */}
+                <Grid item xs={12}>
+                  <TextField
+                    fullWidth
+                    label="Your Message"
+                    variant="outlined"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    multiline
+                    rows={4}
+                    required
+                  />
+                </Grid>
+
+                {/* Submit Button */}
+                <Grid item xs={12} sx={{ textAlign: "center" }}>
+                  <Button
+                    type="submit"
+                    variant="contained"
+                    size="large"
+                    sx={{
+                      backgroundColor: "#7b2cbf",
+                      "&:hover": { backgroundColor: "#5a189a" },
+                      px: 5,
+                      py: 1.5,
+                      borderRadius: "30px",
+                    }}
+                  >
+                    Send Message
+                  </Button>
+                </Grid>
+              </Grid>
+            </form>
+          </Grid>
+        </Grid>
       </Container>
     </Box>
   );

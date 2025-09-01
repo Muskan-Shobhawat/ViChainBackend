@@ -7,6 +7,7 @@ import {
 } from "@mui/material";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
+import faqImage from "../../assets/faq.png"; // 👉 add your image path here
 
 const faqData = [
   {
@@ -46,56 +47,73 @@ const FAQSection = () => {
   return (
     <div
       style={{
-        maxWidth: "50rem", // responsive instead of 800px
+        display: "flex",
+        alignItems: "flex-start",
+        justifyContent: "center",
+        gap: "3rem",
+        maxWidth: "1200px",
         margin: "0 auto",
-        padding: "5vh 2rem", // vh + rem combo
+        padding: "5vh 2rem",
+        flexWrap: "wrap", // responsive for smaller screens
       }}
     >
-      <Typography
-        variant="h4"
-        align="center"
-        gutterBottom
-        sx={{ fontWeight: "bold", color: "#333", marginBottom: "3vh" }}
-      >
-        Frequently Asked Questions
-      </Typography>
-
-      {faqData.map((item, index) => (
-        <Accordion
-          key={index}
-          expanded={expanded === index}
-          onChange={handleChange(index)}
-          className="acc"
-          sx={{ marginBottom: "1.5rem" }}
+      {/* Accordion Section */}
+      <div style={{ flex: "1 1 500px", minWidth: "320px" }}>
+        <Typography
+          variant="h4"
+          gutterBottom
+          sx={{ fontWeight: "bold", color: "#333", marginBottom: "3vh" }}
         >
-          <AccordionSummary
-            expandIcon={
-              expanded === index ? (
-                <RemoveIcon sx={{ color: "#7b2cbf", fontSize: "1.5rem" }} />
-              ) : (
-                <AddIcon sx={{ color: "#7b2cbf", fontSize: "1.5rem" }} />
-              )
-            }
-            aria-controls={`panel${index}-content`}
-            id={`panel${index}-header`}
+          Frequently Asked Questions
+        </Typography>
+
+        {faqData.map((item, index) => (
+          <Accordion
+            key={index}
+            expanded={expanded === index}
+            onChange={handleChange(index)}
+            sx={{ marginBottom: "1.5rem" }}
           >
-            <Typography
-              sx={{
-                fontWeight: "bold",
-                fontSize: "1.2rem",
-                color: expanded === index ? "#7b2cbf" : "#333",
-              }}
+            <AccordionSummary
+              expandIcon={
+                expanded === index ? (
+                  <RemoveIcon sx={{ color: "#7b2cbf", fontSize: "1.5rem" }} />
+                ) : (
+                  <AddIcon sx={{ color: "#7b2cbf", fontSize: "1.5rem" }} />
+                )
+              }
             >
-              {item.question}
-            </Typography>
-          </AccordionSummary>
-          <AccordionDetails>
-            <Typography sx={{ color: "#555", fontSize: "1rem" }}>
-              {item.answer}
-            </Typography>
-          </AccordionDetails>
-        </Accordion>
-      ))}
+              <Typography
+                sx={{
+                  fontWeight: "bold",
+                  fontSize: "1.2rem",
+                  color: expanded === index ? "#7b2cbf" : "#333",
+                }}
+              >
+                {item.question}
+              </Typography>
+            </AccordionSummary>
+            <AccordionDetails>
+              <Typography sx={{ color: "#555", fontSize: "1rem" }}>
+                {item.answer}
+              </Typography>
+            </AccordionDetails>
+          </Accordion>
+        ))}
+      </div>
+
+      {/* Image Section */}
+      <div style={{ flex: "1 1 400px", textAlign: "center" }}>
+        <img
+          src={faqImage}
+          alt="FAQ Illustration"
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            borderRadius: "12px",
+          }}
+        />
+      </div>
     </div>
   );
 };

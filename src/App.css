@@ -188,7 +188,7 @@ html,
 
 @media only screen and (max-width: 1419px) {
   .navbar {
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
   .btnctn {
@@ -212,7 +212,7 @@ html,
 
 @media only screen and (max-width: 1295px) {
   .navbar {
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
   }
 
   .btnctn {
@@ -264,7 +264,7 @@ html,
 
 @media only screen and (max-width: 1135.5px) {
   .navbar {
-    border: 2px solid rgb(251, 255, 0);
+    /* border: 2px solid rgb(251, 255, 0); */
   }
 
   .btnctn {
@@ -330,7 +330,7 @@ html,
 
 @media only screen and (max-width: 1035px) {
   .navbar {
-    border: 2px solid rgb(0, 255, 55);
+    /* border: 2px solid rgb(0, 255, 55); */
   }
 
   .btnctn {
@@ -373,7 +373,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 70vw;
   }
 
@@ -392,7 +392,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -404,7 +404,7 @@ html,
 
 @media only screen and (max-width: 992px) {
   .navbar {
-    border: 2px solid rgb(255, 0, 234);
+    /* border: 2px solid rgb(255, 0, 234); */
   }
 
   .btnctn {
@@ -447,7 +447,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 70vw;
   }
 
@@ -456,7 +456,7 @@ html,
     z-index: 80;
     height: 60vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -465,7 +465,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -477,7 +477,7 @@ html,
 
 @media only screen and (max-width: 946px) {
   .navbar {
-    border: 2px solid rgb(0, 255, 4);
+    /* border: 2px solid rgb(0, 255, 4); */
   }
 
   .btnctn {
@@ -520,7 +520,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75vw;
   }
 
@@ -529,7 +529,7 @@ html,
     z-index: 80;
     height: 60vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -538,7 +538,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -550,7 +550,7 @@ html,
 
 @media only screen and (max-width: 946px) {
   .navbar {
-    border: 2px solid rgb(255, 140, 0);
+    /* border: 2px solid rgb(255, 140, 0); */
   }
 
   .btnctn {
@@ -593,7 +593,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
   }
 
@@ -602,7 +602,7 @@ html,
     z-index: 80;
     height: 50vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -611,7 +611,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -623,7 +623,7 @@ html,
 
 @media only screen and (max-width: 946px) {
   .navbar {
-    border: 2px solid rgb(255, 140, 0);
+    /* border: 2px solid rgb(255, 140, 0); */
   }
 
   .btnctn {
@@ -666,7 +666,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
   }
 
@@ -675,7 +675,7 @@ html,
     z-index: 80;
     height: 50vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -684,7 +684,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -696,7 +696,7 @@ html,
 
 @media only screen and (max-width: 776px) {
   .navbar {
-    border: 2px solid rgb(8, 0, 255);
+    /* border: 2px solid rgb(8, 0, 255); */
   }
 
   .btnctn {
@@ -739,7 +739,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 70vw;
   }
 
@@ -748,7 +748,7 @@ html,
     z-index: 80;
     height: 40vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -757,7 +757,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -769,7 +769,7 @@ html,
 
 @media only screen and (max-width: 655px) {
   .navbar {
-    border: 2px solid rgb(255, 0, 0);
+    /* border: 2px solid rgb(255, 0, 0); */
   }
 
   .btnctn {
@@ -812,7 +812,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 70vw;
   }
 
@@ -821,7 +821,7 @@ html,
     z-index: 80;
     height: 30vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -830,7 +830,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -842,7 +842,7 @@ html,
 
 @media only screen and (max-width: 606px) {
   .navbar {
-    border: 2px solid rgb(0, 251, 255);
+    /* border: 2px solid rgb(0, 251, 255); */
   }
 
   .btnctn {
@@ -887,7 +887,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75vw;
   }
 
@@ -896,7 +896,7 @@ html,
     z-index: 80;
     height: 30vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -905,7 +905,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -917,7 +917,7 @@ html,
 
 @media only screen and (max-width: 540px) {
   .navbar {
-    border: 2px solid rgb(0, 255, 51);
+    /* border: 2px solid rgb(0, 255, 51); */
   }
 
   .btnctn {
@@ -962,7 +962,7 @@ html,
     text-align: center !important;
     color: black !important;
     font-family: "Mulish", sans-serif;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 75vw;
   }
 
@@ -971,7 +971,7 @@ html,
     z-index: 80;
     height: 25vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -980,7 +980,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -992,7 +992,7 @@ html,
 
 @media only screen and (max-width: 412px) {
   .navbar {
-    border: 2px solid rgb(255, 166, 0);
+    /* border: 2px solid rgb(255, 166, 0); */
   }
 
   .btnctn {
@@ -1023,7 +1023,7 @@ html,
   .ppfix1 {
     font-family: "Karla", sans-serif;
     font-size: 50px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-weight: 800 !important;
   }
 
@@ -1047,7 +1047,7 @@ html,
     z-index: 80;
     height: 18vh;
     width: 95vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     /* overflow: hidden; */
   }
 
@@ -1056,7 +1056,7 @@ html,
   }
 
   .fix {
-    border: 2px solid rgb(0, 229, 255);
+    /* border: 2px solid rgb(0, 229, 255); */
     display: flex;
     flex-direction: column;
     align-items: center;

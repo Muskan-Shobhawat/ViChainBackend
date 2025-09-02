@@ -40,9 +40,9 @@
   text-align: left;
 }
 
-.cardheads{
+.cardheads {
   font-family: "Karla", sans-serif !important;
-  font-weight: 800 !important;  
+  font-weight: 800 !important;
 }
 
 .imgset {
@@ -71,4 +71,495 @@
   /* align-items: center !important; */
   flex-wrap: wrap !important;
   /* justify-content: space-around !important; */
+}
+
+@media only screen and (max-width: 1450px) {
+  .cardservice {
+    /* width: 25vw; */
+    border: 2px solid red !important;
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 35px;
+    text-align: left;
+  }
+
+
+  .realcard {
+    border: 2px solid red !important;
+    width: 25vw;
+    /* padding: 2%; */
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .cardservice {
+    /* width: 25vw; */
+    border: 2px solid rgb(0, 255, 102) !important;
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    font-weight: 800 !important;
+    font-size: 30px;
+    text-align: left;
+  }
+
+
+  .realcard {
+    border: 2px solid red !important;
+    width: 28vw;
+    /* padding: 2%; */
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 5.5vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 20vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 1187px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid red;
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 40vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 5.8vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 13vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(0, 255, 187);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 40vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 6vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 15vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 958px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(0, 13, 255);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 40vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 7vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 20vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 719px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(255, 0, 162);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 40vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 9vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 22vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(0, 255, 34);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 60vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 11vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 25vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(0, 30, 255);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 70vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 60vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 70vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 70vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 13vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 30vw;
+    margin: 2vh 0vw;
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .ss {
+  background-color: #fafafa;
+  border: 2px solid rgb(255, 0, 0);
+  /* height: 150vh; */
+  padding: 12vh 8vw !important;
+}
+
+  .cardsectionss {
+    /* border: 2px solid black; */
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+
+  .cardservice {
+    border: 2px solid rgb(0, 102, 255) !important;
+    width: 80vw;
+    /* transform: translate(-22vw, 0vh); */
+    /* position: relative; */
+  }
+
+  #servicetext {
+    font-family: "Karla", sans-serif !important;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    font-weight: 800 !important;
+    font-size: 30px;
+    width: 70vw;
+    text-align: left;
+  }
+
+
+  .realcard {
+    /* border: 2px solid red !important; */
+    width: 80vw;
+    /* padding: 2%; */
+  }
+  
+  .at{
+    /* border: 2px solid red !important; */
+    width: 80vw;
+  }
+
+  .imgset {
+    height: 10vh;
+    width: 25vw;
+    margin: 2vh 0vw;
+    /* border: 2px solid red; */
+  }
+
+  .fixbtn2 {
+    display: flex;
+    align-items: flex-start;
+    /* border: 2px solid red; */
+    width: 40vw;
+    margin: 2vh 0vw;
+  }
 }

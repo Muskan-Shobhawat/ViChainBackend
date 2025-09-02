@@ -16,7 +16,7 @@ const Services = () => {
     <section className="py-5 ss">
       <div className="row g-4 justify-content-center  cardsectionss">
         {/* Card 1 - Our Services Heading */}
-        <div className="col-md-4">
+        <div className="col-md-4 at">
           <div className="card h-100 text-center border-0 shadow-sm cardservice">
             <div className="card-body d-flex flex-column justify-content-center">
               <Chip

@@ -532,7 +532,7 @@
     /* border: 2px solid rgb(0, 102, 255) !important; */
     font-weight: 800 !important;
     font-size: 30px;
-    width: 70vw;
+    width: 80vw;
     text-align: left;
   }
 
@@ -550,7 +550,7 @@
 
   .imgset {
     height: 10vh;
-    width: 20vw;
+    width: 22vw;
     margin: 2vh 0vw;
     /* border: 2px solid red; */
   }

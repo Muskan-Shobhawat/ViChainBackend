@@ -539,18 +539,18 @@
 
   .realcard {
     /* border: 2px solid red !important; */
-    width: 80vw;
+    width: 90vw;
     /* padding: 2%; */
   }
   
   .at{
     /* border: 2px solid red !important; */
-    width: 80vw;
+    width: 90vw;
   }
 
   .imgset {
     height: 10vh;
-    width: 25vw;
+    width: 20vw;
     margin: 2vh 0vw;
     /* border: 2px solid red; */
   }

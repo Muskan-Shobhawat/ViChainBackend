@@ -8,11 +8,14 @@ import {
   Card,
   CardContent,
 } from "@mui/material";
-import url from "../../assets/video.mp4"
+import url from "../../assets/video.mp4";
 
 export default function Showcase() {
   return (
-    <Container sx={{ py: 8, position: "relative", textAlign: "center" }} className="sscontainer">
+    <Container
+      sx={{ py: 8, position: "relative", textAlign: "center" }}
+      className="sscontainer"
+    >
       {/* Background Text */}
       <Typography
         variant="h1"
@@ -25,6 +28,7 @@ export default function Showcase() {
           color: "rgba(0,0,0,0.05)",
           zIndex: 0,
         }}
+        className="text1"
       >
         transforming
       </Typography>
@@ -40,6 +44,7 @@ export default function Showcase() {
           zIndex: 0,
           transform: "rotate(90deg)",
         }}
+        className="text2"
       >
         brands
       </Typography>
@@ -55,7 +60,7 @@ export default function Showcase() {
           zIndex: 1,
           maxWidth: "800px",
           mx: "auto",
-        }}
+        }} className="videovv"
       >
         <video
           src={url}
@@ -66,7 +71,7 @@ export default function Showcase() {
           style={{ width: "100%", display: "block" }}
         />
         {/* Play Button Overlay */}
-        <Box
+        {/* <Box
           sx={{
             position: "absolute",
             top: "50%",
@@ -85,7 +90,7 @@ export default function Showcase() {
           <Typography variant="h6" color="white">
             ▶
           </Typography>
-        </Box>
+        </Box> */}
       </Box>
 
       {/* Stats / Projects Completed */}
@@ -98,10 +103,10 @@ export default function Showcase() {
           <Grid item xs={12} md={4} key={index}>
             <Card elevation={2} sx={{ borderRadius: 3 }} className="ggcard">
               <CardContent>
-                <Typography variant="h4" fontWeight="bold" color="#7b2cbf">
+                <Typography variant="h4" fontWeight="bold" color="#7b2cbf" className="numbertext">
                   {stat.value}
                 </Typography>
-                <Typography variant="body1" color="black">
+                <Typography variant="body1" color="black" className="numbertext2">
                   {stat.label}
                 </Typography>
               </CardContent>

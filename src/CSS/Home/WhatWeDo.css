@@ -130,7 +130,7 @@
 
 @media only screen and (max-width: 1310px) {
 .wedo-section {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   padding-top: 55vh;
   padding-bottom: 0vh;
 }
@@ -141,7 +141,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 4vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -156,7 +156,7 @@
 
 @media only screen and (max-width: 1135px) {
 .wedo-section {
-  border: 2px solid rgb(0, 255, 247);
+  /* border: 2px solid rgb(0, 255, 247); */
   padding-top: 45vh;
   padding-bottom: 0vh;
 }
@@ -167,7 +167,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -182,7 +182,7 @@
 
 @media only screen and (max-width: 992px) {
 .wedo-section {
-  border: 2px solid rgb(77, 255, 0);
+  /* border: 2px solid rgb(77, 255, 0); */
   padding-top: 40vh;
   padding-bottom: 0vh;
 }
@@ -194,7 +194,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -209,7 +209,7 @@
 
 @media only screen and (max-width: 945px) {
 .wedo-section {
-  border: 2px solid rgb(0, 234, 255);
+  /* border: 2px solid rgb(0, 234, 255); */
   padding-top: 20vh;
   padding-bottom: 0vh;
 }
@@ -221,7 +221,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -236,7 +236,7 @@
 
 @media only screen and (max-width: 776px) {
 .wedo-section {
-  border: 2px solid rgb(242, 255, 0);
+  /* border: 2px solid rgb(242, 255, 0); */
   padding-top: 15vh;
   padding-bottom: 0vh;
 }
@@ -248,7 +248,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -262,7 +262,7 @@
 
 .wedo-text {
   max-width: 45vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-title {
@@ -283,7 +283,7 @@
 
 @media only screen and (max-width: 735px) {
 .wedo-section {
-  border: 2px solid rgb(0, 255, 0);
+  /* border: 2px solid rgb(0, 255, 0); */
   padding-top: 15vh;
   padding-bottom: 0vh;
 }
@@ -295,7 +295,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -309,7 +309,7 @@
 
 .wedo-text {
   max-width: 40vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-title {
@@ -330,7 +330,7 @@
 
 @media only screen and (max-width: 674px) {
 .wedo-section {
-  border: 2px solid rgb(34, 0, 255);
+  /* border: 2px solid rgb(34, 0, 255); */
   padding-top: 15vh;
   padding-bottom: 0vh;
 }
@@ -342,7 +342,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -356,7 +356,7 @@
 
 .wedo-text {
   max-width: 80vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-title {
@@ -377,7 +377,7 @@
 
 @media only screen and (max-width: 655px) {
 .wedo-section {
-  border: 2px solid rgb(255, 0, 255);
+  /* border: 2px solid rgb(255, 0, 255); */
   padding-top: 20vh;
   padding-bottom: 0vh;
 }
@@ -389,7 +389,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -403,7 +403,7 @@
 
 .wedo-text {
   max-width: 80vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-title {
@@ -424,7 +424,7 @@
 
 @media only screen and (max-width: 412px) {
 .wedo-section {
-  border: 2px solid rgb(255, 0, 255);
+  /* border: 2px solid rgb(255, 0, 255); */
   padding-top: 10vh;
   padding-bottom: 0vh;
 }
@@ -436,7 +436,7 @@
   align-items: center;
   justify-content: space-around;
   gap: 0vw !important; 
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-image {
@@ -450,7 +450,7 @@
 
 .wedo-text {
   max-width: 80vw;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-title {

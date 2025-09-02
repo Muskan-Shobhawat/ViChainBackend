@@ -74,10 +74,6 @@
 }
 
 @media only screen and (max-width: 1450px) {
-  .cardservice {
-    /* width: 25vw; */
-    border: 2px solid red !important;
-  }
 
   #servicetext {
     font-family: "Karla", sans-serif !important;
@@ -88,17 +84,13 @@
 
 
   .realcard {
-    border: 2px solid red !important;
+    /* border: 2px solid red !important; */
     width: 25vw;
     /* padding: 2%; */
   }
 }
 
 @media only screen and (max-width: 1320px) {
-  .cardservice {
-    /* width: 25vw; */
-    border: 2px solid rgb(0, 255, 102) !important;
-  }
 
   #servicetext {
     font-family: "Karla", sans-serif !important;
@@ -109,7 +101,7 @@
 
 
   .realcard {
-    border: 2px solid red !important;
+    /* border: 2px solid red !important; */
     width: 28vw;
     /* padding: 2%; */
   }
@@ -133,7 +125,7 @@
 @media only screen and (max-width: 1187px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -195,7 +187,7 @@
 @media only screen and (max-width: 1110px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(0, 255, 187);
+  /* border: 2px solid rgb(0, 255, 187); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -257,7 +249,7 @@
 @media only screen and (max-width: 958px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(0, 13, 255);
+  /* border: 2px solid rgb(0, 13, 255); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -319,7 +311,7 @@
 @media only screen and (max-width: 719px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(255, 0, 162);
+  /* border: 2px solid rgb(255, 0, 162); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -381,7 +373,7 @@
 @media only screen and (max-width: 655px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(0, 255, 34);
+  /* border: 2px solid rgb(0, 255, 34); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -443,7 +435,7 @@
 @media only screen and (max-width: 575px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(0, 30, 255);
+  /* border: 2px solid rgb(0, 30, 255); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -505,7 +497,7 @@
 @media only screen and (max-width: 412px) {
   .ss {
   background-color: #fafafa;
-  border: 2px solid rgb(255, 0, 0);
+  /* border: 2px solid rgb(255, 0, 0); */
   /* height: 150vh; */
   padding: 12vh 8vw !important;
 }
@@ -521,8 +513,8 @@
   }
 
   .cardservice {
-    border: 2px solid rgb(0, 102, 255) !important;
-    width: 80vw;
+    /* border: 2px solid rgb(0, 102, 255) !important; */
+    width: 90vw;
     /* transform: translate(-22vw, 0vh); */
     /* position: relative; */
   }
@@ -532,7 +524,7 @@
     /* border: 2px solid rgb(0, 102, 255) !important; */
     font-weight: 800 !important;
     font-size: 30px;
-    width: 80vw;
+    width: 85vw;
     text-align: left;
   }
 

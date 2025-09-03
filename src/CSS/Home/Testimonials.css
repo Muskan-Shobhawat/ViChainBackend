@@ -69,18 +69,18 @@
 }
 .fg {
     /* border: 2px solid red; */
-    width: 90vw;
+    width: 85vw;
     /* display: flex !important; */
     /* align-items: center !important; */
 }
 
 .sg {
     /* border: 2px solid red; */
-    width: 90vw;
+    width: 85vw;
 }
 
 .ttfix {
-    width: 90vw !important;
+    width: 85vw !important;
     /* border: 2px solid blue; */
 }
 }

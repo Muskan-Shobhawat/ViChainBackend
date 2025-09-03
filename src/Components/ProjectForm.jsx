@@ -7,7 +7,8 @@ import {
   Box,
   Grid,
 } from "@mui/material";
-import projectImg from "../assets/form.png"; // 👉 replace with your image path
+import projectImg from "../assets/form.png";
+import "../CSS/ProjectForm.css";
 
 
 export default function ProjectForm() {
@@ -51,15 +52,15 @@ export default function ProjectForm() {
           Let’s discuss your idea and make it real.
         </Typography>
 
-        <Grid container spacing={5} alignItems="center">
+        <Grid container-fluid spacing={5} alignItems="center" className="ppformfix">
           {/* Left Side Image */}
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} className="ppformrow">
             <Box sx={{ textAlign: "center" }}>
               <img
                 src={projectImg}
                 alt="Project discussion"
                 style={{
-                  maxWidth: "20%",
+                  maxWidth: "100%",
                   height: "auto",
                   borderRadius: "12px",
                 }}
@@ -68,13 +69,14 @@ export default function ProjectForm() {
           </Grid>
 
           {/* Right Side Form */}
-          <Grid item xs={12} md={6}>
-            <form onSubmit={handleSubmit}>
-              <Grid container spacing={3}>
+          <Grid item xs={12} md={6} className="ppformrow">
+            <form onSubmit={handleSubmit} className="formproject">
+              <Grid container-fluid spacing={3} >
                 {/* Name */}
                 <Grid item xs={12} sm={6}>
                   <TextField
                     fullWidth
+                    className="fieldsform"
                     label="Your Name"
                     variant="outlined"
                     name="name"
@@ -88,6 +90,7 @@ export default function ProjectForm() {
                 <Grid item xs={12} sm={6}>
                   <TextField
                     fullWidth
+                     className="fieldsform"
                     label="Your Email"
                     variant="outlined"
                     name="email"
@@ -102,6 +105,7 @@ export default function ProjectForm() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
+                     className="fieldsform"
                     label="Phone Number"
                     variant="outlined"
                     name="phone"
@@ -118,6 +122,7 @@ export default function ProjectForm() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
+                     className="fieldsform"
                     label="Your Message"
                     variant="outlined"
                     name="message"
@@ -130,7 +135,7 @@ export default function ProjectForm() {
                 </Grid>
 
                 {/* Submit Button */}
-                <Grid item xs={12} sx={{ textAlign: "center" }}>
+                <Grid item xs={12} sx={{ textAlign: "center" }} className="formbtnfix">
                   <Button
                     type="submit"
                     variant="contained"

@@ -38,10 +38,11 @@
 
 .footerpp{
     /* border: 2px solid blue; */
-    width: 60vw;
+    width: 80vw;
+    margin: 2vh 0vw !important;
 }
 
 .txtfooterpp{
-    margin: 2vh 0vw;
+    margin: 1vh 0vw !important;
 }
 }

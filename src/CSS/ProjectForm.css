@@ -37,7 +37,7 @@
 
 @media only screen and (max-width: 920px) {
     .ppformfix {
-        border: 2px solid rgb(0, 255, 51);
+        /* border: 2px solid rgb(0, 255, 51); */
         display: flex !important;
         flex-direction: column-reverse !important;
         align-items: center !important;
@@ -45,7 +45,7 @@
     }
 
     .ppformrow {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80vw;
     display: flex !important;
     align-items: center;
@@ -67,7 +67,7 @@
 
 @media only screen and (max-width: 412) {
     .ppformfix {
-        border: 2px solid rgb(0, 255, 51);
+        /* border: 2px solid rgb(0, 255, 51); */
         display: flex !important;
         flex-direction: column-reverse !important;
         align-items: center !important;
@@ -75,7 +75,7 @@
     }
 
     .ppformrow {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     width: 80vw;
     display: flex !important;
     align-items: center;
@@ -84,13 +84,13 @@
 
 .fieldsform {
     width: 80vw !important;
-    margin: 3.6vh !important;
+    margin: 3vh !important;
 }
 
 .formbtnfix {
     /* border: 2px solid red; */
     display: flex !important;
     align-items: flex-start !important;
-    margin-left: 12vw;
+    margin-left: 20vw;
 }
 }

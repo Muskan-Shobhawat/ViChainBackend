@@ -185,6 +185,20 @@ html,
   font-family: "Mulish", sans-serif;
 }
 
+#navbarNav {
+  background-color: transparent; /* normal */
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* When open */
+#navbarNav.nav-open {
+  background-color: white; /* turns white when expanded */
+  padding: 1rem; /* optional */
+  border-radius: 8px; /* optional */
+/* padding: 2% !important; */
+  /* border: 2px solid red; */
+}
+
 @media only screen and (max-width: 1419px) {
   .navbar {
     /* border: 2px solid black; */

@@ -1,11 +1,11 @@
 .ttfix {
     width: 20vw !important;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .bb {
     background-color: #f6f7fb;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     /* padding: 2% !important; */
     display: flex !important;
     align-items: center !important;
@@ -21,7 +21,7 @@
 }
 
 .fg {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 45vw;
 }
 
@@ -33,7 +33,7 @@
 
 @media only screen and (max-width: 1016px) {
 .gg {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: auto;
     display: flex;
     flex-direction: column-reverse !important;
@@ -41,19 +41,46 @@
     justify-content: space-around;
 }
 .fg {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
     /* display: flex !important; */
     /* align-items: center !important; */
 }
 
 .sg {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 80vw;
 }
 
 .ttfix {
     width: 35vw !important;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+}
+}
+
+@media only screen and (max-width: 412px) {
+.gg {
+    /* border: 2px solid red; */
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse !important;
+    align-items: center;
+    justify-content: space-around;
+}
+.fg {
+    /* border: 2px solid red; */
+    width: 90vw;
+    /* display: flex !important; */
+    /* align-items: center !important; */
+}
+
+.sg {
+    /* border: 2px solid red; */
+    width: 90vw;
+}
+
+.ttfix {
+    width: 90vw !important;
+    /* border: 2px solid blue; */
 }
 }

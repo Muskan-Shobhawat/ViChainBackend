@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Grid, Typography, Link, IconButton } from "@mui/material";
 import { Facebook, Instagram, LinkedIn } from "@mui/icons-material";
+import "../CSS/Footer.css";
 
 const Footer = () => {
   return (
@@ -12,7 +13,7 @@ const Footer = () => {
         px: { xs: 4, md: 12 },
       }}
     >
-      <Grid container spacing={4}>
+      <Grid container-fluid spacing={4} className="footergg">
         {/* Services Links */}
         <Grid item xs={12} md={4}>
           <Typography variant="h6" gutterBottom>
@@ -35,13 +36,13 @@ const Footer = () => {
         </Grid>
 
         {/* Contact Info */}
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={4} className="footerpp">
           <Typography variant="h6" gutterBottom>
             Contact Us
           </Typography>
-          <Typography variant="body2">123 Business Street, Jodhpur</Typography>
-          <Typography variant="body2">Phone: +91 98765 43210</Typography>
-          <Typography variant="body2">Email: info@vichain.com</Typography>
+          <Typography variant="body2" className="txtfooterpp">201, 2nd Floor, City Plaza, Near HP World & LCD, Opposite Medical Collage Road, Jaljog Circle, Jodhpur, Rajasthan (342001)</Typography>
+          <Typography variant="body2" className="txtfooterpp">Phone: +91 9257591748</Typography>
+          <Typography variant="body2" className="txtfooterpp">Email: info@vichain.com</Typography>
         </Grid>
 
         {/* Socials */}

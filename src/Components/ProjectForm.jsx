@@ -10,7 +10,6 @@ import {
 import projectImg from "../assets/form.png";
 import "../CSS/ProjectForm.css";
 
-
 export default function ProjectForm() {
   const [formData, setFormData] = useState({
     name: "",
@@ -25,11 +24,16 @@ export default function ProjectForm() {
       [e.target.name]: e.target.value,
     });
   };
-
-  const handleSubmit = (e) => {
+  
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
-    // Integrate backend or email API here
+    const response = await fetch("http://localhost:5000/send", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+    const result = await response.text();
+    console.log(result);
   };
 
   return (
@@ -52,7 +56,12 @@ export default function ProjectForm() {
           Let’s discuss your idea and make it real.
         </Typography>
 
-        <Grid container-fluid spacing={5} alignItems="center" className="ppformfix">
+        <Grid
+          container-fluid
+          spacing={5}
+          alignItems="center"
+          className="ppformfix"
+        >
           {/* Left Side Image */}
           <Grid item xs={12} md={6} className="ppformrow">
             <Box sx={{ textAlign: "center" }}>
@@ -71,7 +80,7 @@ export default function ProjectForm() {
           {/* Right Side Form */}
           <Grid item xs={12} md={6} className="ppformrow">
             <form onSubmit={handleSubmit} className="formproject">
-              <Grid container-fluid spacing={3} >
+              <Grid container-fluid spacing={3}>
                 {/* Name */}
                 <Grid item xs={12} sm={6}>
                   <TextField
@@ -90,7 +99,7 @@ export default function ProjectForm() {
                 <Grid item xs={12} sm={6}>
                   <TextField
                     fullWidth
-                     className="fieldsform"
+                    className="fieldsform"
                     label="Your Email"
                     variant="outlined"
                     name="email"
@@ -105,7 +114,7 @@ export default function ProjectForm() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
-                     className="fieldsform"
+                    className="fieldsform"
                     label="Phone Number"
                     variant="outlined"
                     name="phone"
@@ -122,7 +131,7 @@ export default function ProjectForm() {
                 <Grid item xs={12}>
                   <TextField
                     fullWidth
-                     className="fieldsform"
+                    className="fieldsform"
                     label="Your Message"
                     variant="outlined"
                     name="message"
@@ -135,7 +144,12 @@ export default function ProjectForm() {
                 </Grid>
 
                 {/* Submit Button */}
-                <Grid item xs={12} sx={{ textAlign: "center" }} className="formbtnfix">
+                <Grid
+                  item
+                  xs={12}
+                  sx={{ textAlign: "center" }}
+                  className="formbtnfix"
+                >
                   <Button
                     type="submit"
                     variant="contained"

@@ -6,9 +6,9 @@ import aboutIllustration from "../../assets/main2.png";
 export default function AboutUs() {
   return (
     <section className="about-section">
-        <Grid container alignItems="center" columnSpacing={6} rowSpacing={8}>
+        <Grid container alignItems="center" columnSpacing={6} rowSpacing={8} className='abgg'>
           {/* Left: text */}
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} className="ab2gg">
             <div className="about-eyebrow">
               ABOUT <span className="about-us-green">US</span>
               <span className="about-underline" />
@@ -27,7 +27,7 @@ export default function AboutUs() {
           </Grid>
 
           {/* Right: visual panel */}
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} className="ab3gg">
             <div className="about-visual">
               <div className="about-visual-heading">
                 <span className="about-green">We live &amp;</span>{" "}

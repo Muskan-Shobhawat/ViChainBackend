@@ -1,6 +1,6 @@
 import React from "react";
 import "../../CSS/About/WhatWeDoAbout.css";
-import aboutIllustration from "../../assets/main2.png";
+import aboutIllustration from "../../assets/aero.png";
 
 // Import your stat images
 import stat1 from "../../assets/project.png";
@@ -33,7 +33,7 @@ export default function WhatWeDo() {
             <div className="stat-icon">
               <img src={stat3} alt="Growth Icon" />
             </div>
-            <h3>$50M</h3>
+            <h3>₹1L</h3>
             <p>Media Investment Managed</p>
           </div>
         </div>

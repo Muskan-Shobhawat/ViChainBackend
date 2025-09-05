@@ -1,7 +1,6 @@
 .wedo-section2 {
   background: #fafafa;
   padding: 8vh 6vw;
-  /* border: 2px solid red; */
 }
 
 .wedo-container2 {
@@ -36,13 +35,14 @@
 }
 
 .highlight {
-   background-color: rgba(244, 221, 190, 0.7) !important;
+  background-color: rgba(244, 221, 190, 0.7) !important;
   color: black;
 }
 
 .wedo-image img {
   width: 100%;
   border-radius: 1rem;
+  border: 2px solid red;
 }
 
 .wedo-text .wedo-tag {
@@ -57,7 +57,8 @@
 
 .wedo-text h2 {
   font-size: 2rem;
-  font-weight: 800;
+    font-family: "Karla", sans-serif !important;
+  font-weight: 800 !important;
   margin-bottom: 2vh;
 }
 
@@ -66,7 +67,8 @@
 }
 
 .wedo-text p {
-  color: #555;
+  color: black !important;
+  font-family: "Mulish", sans-serif;
   margin-bottom: 2vh;
   line-height: 1.6;
 }
@@ -76,13 +78,14 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 1vh 2vw;
   margin-bottom: 3vh;
+  
 }
 
 .wedo-points span {
   display: flex;
   align-items: center;
   font-size: 1rem;
-  color: #444;
+  color: black;
 }
 
 .wedo-btn {
@@ -98,4 +101,292 @@
 
 .wedo-btn:hover {
   background: #5335c2;
+}
+
+
+@media only screen and (max-width: 995px) {
+  .wedo-image img {
+    width: 100%;
+    border-radius: 1rem;
+    border: 2px solid rgb(0, 102, 255);
+  }
+
+  .wedo-btn {
+    background: #6c4de6;
+    color: #fff;
+    padding: 1.5vh 3vw;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .wedo-image img {
+    width: 100%;
+    border-radius: 1rem;
+    border: 2px solid rgb(0, 255, 60);
+  }
+
+  .wedo-image {
+    display: none;
+  }
+
+  .wedo-btn {
+    background: #6c4de6;
+    color: #fff;
+    padding: 1.5vh 3vw;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .wedo-container2 {
+    display: flex !important;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items:center !important;
+    flex-direction: column !important;
+    justify-content: space-around;
+    gap: 4vw;
+    border: 2px solid red;
+  }
+
+  .wedo-stats {
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+    border: 2px solid red;
+  }
+
+  .stat-icon img {
+    height: 10vh;
+    border: 2px solid red;
+  }
+
+  .wedo-text {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* width: 150vw !important; */
+  }
+  
+  .wedo-text h2{
+    width: 65vw !important;
+    
+  }
+  
+  .wedo-text p {
+    color: black !important;
+    width: 65vw !important;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 2vh;
+    line-height: 1.6;
+  }
+  
+  .wedo-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vh 2vw;
+    margin-bottom: 3vh;
+    width: 65vw !important;
+    
+  }
+  
+  .wedo-points span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+}
+}
+
+@media only screen and (max-width: 550px) {
+  .wedo-image img {
+    width: 100%;
+    border-radius: 1rem;
+    border: 2px solid rgb(0, 255, 60);
+  }
+
+  .wedo-image {
+    display: none;
+  }
+
+  .wedo-btn {
+    background: #6c4de6;
+    color: #fff;
+    padding: 1.5vh 3vw;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .wedo-container2 {
+    display: flex !important;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items:center !important;
+    flex-direction: column !important;
+    justify-content: space-around;
+    gap: 4vw;
+    border: 2px solid rgb(128, 112, 180);
+  }
+
+  .wedo-stats {
+    display: flex;
+    flex-direction: column ;
+    gap: 3vh;
+    border: 2px solid red;
+  }
+
+  .stat-icon img {
+    height: 12vh;
+    border: 2px solid red;
+  }
+
+  .wedo-text {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* width: 150vw !important; */
+  }
+  
+  .wedo-text h2{
+    width: 70vw !important;
+    
+  }
+  
+  .wedo-text p {
+    color: black !important;
+    width: 70vw !important;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 2vh;
+    line-height: 1.6;
+  }
+  
+  .wedo-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vh 2vw;
+    margin-bottom: 3vh;
+    width: 70vw !important;
+    
+  }
+  
+  .wedo-points span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+}
+.stat-box {
+  background: white;
+  padding: 4vh 2vw;
+  border-radius: 1rem;
+  text-align: center;
+  width: 50vw;
+}
+}
+
+@media only screen and (max-width: 412px) {
+  .wedo-image img {
+    width: 100%;
+    border-radius: 1rem;
+    border: 2px solid rgb(0, 255, 60);
+  }
+
+  .wedo-image {
+    display: none;
+  }
+
+  .wedo-btn {
+    background: #6c4de6;
+    color: #fff;
+    padding: 1.5vh 3vw;
+    border: none;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    width: 30vw;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .wedo-container2 {
+    display: flex !important;
+    /* grid-template-columns: 1fr 1fr; */
+    align-items:center !important;
+    flex-direction: column !important;
+    justify-content: space-around;
+    gap: 4vw;
+    border: 2px solid rgb(128, 112, 180);
+  }
+
+  .wedo-stats {
+    display: flex;
+    flex-direction: column ;
+    gap: 3vh;
+    border: 2px solid red;
+  }
+
+  .stat-icon img {
+    height: 10vh;
+    border: 2px solid red;
+  }
+
+  .wedo-text {
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    /* width: 150vw !important; */
+  }
+  
+  .wedo-text h2{
+    width: 70vw !important;
+    
+  }
+  
+  .wedo-text p {
+    color: black !important;
+    width: 70vw !important;
+    font-family: "Mulish", sans-serif;
+    margin-bottom: 2vh;
+    line-height: 1.6;
+  }
+  
+  .wedo-points {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vh 2vw;
+    margin-bottom: 3vh;
+    width: 70vw !important;
+    
+  }
+  
+  .wedo-points span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: black;
+}
+.stat-box {
+  background: white;
+  padding: 4vh 2vw;
+  border-radius: 1rem;
+  text-align: center;
+  width: 70vw;
+}
 }

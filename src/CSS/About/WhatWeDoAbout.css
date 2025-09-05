@@ -42,7 +42,7 @@
 .wedo-image img {
   width: 100%;
   border-radius: 1rem;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .wedo-text .wedo-tag {
@@ -330,7 +330,7 @@
     flex-direction: column !important;
     justify-content: space-around;
     gap: 4vw;
-    border: 2px solid rgb(128, 112, 180);
+    /* border: 2px solid rgb(128, 112, 180); */
   }
 
   .wedo-stats {

@@ -5,13 +5,15 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 
 }
 
 /* Eyebrow heading (ABOUT US) */
 .about-eyebrow {
   /* border: 2px solid red; */
+    font-family: "Karla", sans-serif !important;
+  font-weight: 800 !important;
   font-weight: 800;
   font-size: 3vw;
   letter-spacing: 0.05vw;
@@ -22,6 +24,8 @@
 }
 
 .about-us-green {
+    font-family: "Karla", sans-serif !important;
+  font-weight: 800 !important;
   color: #7b2cbf;
 }
 
@@ -40,12 +44,14 @@
   font-style: italic;
   font-size: 1.6vw;
   margin-top: 3vh !important;
-  color: #222;
+    color: black !important;
+  font-family: "Mulish", sans-serif;
 }
 
 /* Body copy */
 .about-body {
-  color: #4b5563;
+  color: black !important;
+  font-family: "Mulish", sans-serif;
   font-size: 1.05vw;
   line-height: 1.9;
   margin-top: 3vh !important;
@@ -79,7 +85,7 @@
   position: absolute;
   top: 2vh;
   left: 5vw;
-  right: 4vw;
+  right: 4vw; 
   font-weight: 800;
   font-size: 3.5vw;
   line-height: 1.15;
@@ -114,13 +120,13 @@
 @media only screen and (max-width: 992px) {
   .abgg {
     flex-direction: column !important;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
     width: 80vw;
   }
 
   .ab2gg {
     width: 80vw;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .ab3gg {
@@ -128,7 +134,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: space-around;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .about-body {
@@ -177,13 +183,13 @@
 @media only screen and (max-width: 720px) {
   .abgg {
     flex-direction: column !important;
-    border: 2px solid rgb(0, 64, 255);
+    /* border: 2px solid rgb(0, 64, 255); */
     width: 80vw;
   }
 
   .ab2gg {
     width: 80vw;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .ab3gg {
@@ -191,7 +197,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: space-around;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .about-body {
@@ -240,13 +246,13 @@
 @media only screen and (max-width: 600px) {
   .abgg {
     flex-direction: column !important;
-    border: 2px solid rgb(255, 0, 221);
+    /* border: 2px solid rgb(255, 0, 221); */
     width: 80vw;
   }
 
   .ab2gg {
     width: 80vw;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .ab3gg {
@@ -254,7 +260,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: space-around;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .about-body {
@@ -303,13 +309,13 @@
 @media only screen and (max-width: 412px) {
   .abgg {
     flex-direction: column !important;
-    border: 2px solid rgb(255, 0, 221);
+    /* border: 2px solid rgb(255, 0, 221); */
     width: 85vw;
   }
 
   .ab2gg {
     width: 85vw;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .ab3gg {
@@ -317,7 +323,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: space-around;
-    border: 2px solid rgb(17, 255, 0);
+    /* border: 2px solid rgb(17, 255, 0); */
   }
 
   .about-body {
@@ -360,5 +366,25 @@
   letter-spacing: 0.03vw;
   text-align: left;
   /* width: 20vw; */
+}
+
+.about-eyebrow {
+  /* border: 2px solid red; */
+  font-weight: 800;
+  font-size: 8vw;
+  letter-spacing: 0.05vw;
+  color: #111;
+  position: relative;
+  line-height: 1.1;
+  display: inline-block;
+}
+
+.about-underline {
+  display: block;
+  width: 35vw;
+  height: 0.6vh;
+  background: rgb(243, 197, 137);
+  border-radius: 2vh;
+  margin-top: 1.2vh;
 }
 }

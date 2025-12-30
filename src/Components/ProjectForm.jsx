@@ -27,7 +27,7 @@ export default function ProjectForm() {
   
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/send", {
+    const response = await fetch("https://vichainbackend.onrender.com/send", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),

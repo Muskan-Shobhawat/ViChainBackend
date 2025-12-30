@@ -4,8 +4,8 @@ import { Box, Fab, Typography } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function FloatingWhatsApp({
-  phone = "+919257591748", // default phone - replace with your number
-  message = "Hi! I need help with a project.", // default message
+  phone = "+919257591748", 
+  message = "Hi! I need help with a project.",
 }) {
   // create wa.me link (only numbers, no + or dashes in the phone for wa.me)
   const plainNumber = phone.replace(/[^\d]/g, "");

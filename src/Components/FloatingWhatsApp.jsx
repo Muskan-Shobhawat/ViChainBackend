@@ -1,10 +1,10 @@
 // FloatingWhatsApp.jsx
-import React from "react";
+// import React from "react";
 import { Box, Fab, Typography } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 export default function FloatingWhatsApp({
-  phone = "+919876543210", // default phone - replace with your number
+  phone = "+919257591748", // default phone - replace with your number
   message = "Hi! I need help with a project.", // default message
 }) {
   // create wa.me link (only numbers, no + or dashes in the phone for wa.me)

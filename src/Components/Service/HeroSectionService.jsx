@@ -1,10 +1,10 @@
 import React from "react";
 import { Button } from "@mui/material";
 import "../../CSS/Service/HeroSectionService.css";
-import img1 from "../../assets/laptop.jpg";
-import img2 from "../../assets/idea.jpg";
-import img3 from "../../assets/heart.jpg";
-import img4 from "../../assets/pencil.jpg";
+import img1 from "../../assets/laptop.png";
+import img2 from "../../assets/idea.png";
+import img3 from "../../assets/heart.png";
+import img4 from "../../assets/pencil.png";
 
 const people = [
 img1,

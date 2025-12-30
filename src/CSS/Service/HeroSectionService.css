@@ -2,6 +2,7 @@
 .vc-hero {
   background: #ffffff;
   padding: 15vh 0;
+  /* border: 2px solid red; */
 }
 
 /* Text Side */
@@ -110,19 +111,32 @@
 
 /* Different shapes */
 .vc-shape-1 {
-  border-radius: 50%; /* Circle */
+  border-radius: 50%;
+  /* Circle */
 }
 
 .vc-shape-2 {
-  border-radius: 25%; /* Rounded square */
+  border-radius: 50%;
+  /* Rounded square */
 }
 
 .vc-shape-3 {
-  border-radius: 35% 65% 50% 50%; /* Organic squircle */
+  border-radius: 50%;
+  /* Organic squircle */
 }
 
 .vc-shape-4 {
-  border-radius: 20% / 50%; /* Pill-like */
+  border-radius: 50%;
+  /* Pill-like */
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .vc-hero {
+    background: #ffffff;
+    padding: 15vh 0;
+    border: 2px solid red;
+  }
 }
 
 /* Responsive */
@@ -138,6 +152,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+
   .vc-shape {
     width: 28vw;
     height: 28vw;

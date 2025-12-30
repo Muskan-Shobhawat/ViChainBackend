@@ -1,10 +1,10 @@
 import React from "react";
 import "../../CSS/Service/TrustedLogo.css";
-import brand1 from "../../assets/business-graph.png";
-import brand2 from "../../assets/business-graph.png";
-import brand3 from "../../assets/business-graph.png";
-import brand4 from "../../assets/business-graph.png";
-import brand5 from "../../assets/business-graph.png";
+import brand1 from "../../assets/nakshi.png";
+import brand2 from "../../assets/monkey.jpeg";
+import brand3 from "../../assets/gaya.jpeg";
+import brand4 from "../../assets/foods.jpeg";
+import brand5 from "../../assets/easy.jpeg";
 
 const logos = [
   brand1,
